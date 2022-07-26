@@ -13,8 +13,9 @@ Add this to your `Cargo.toml`
 
 ```toml
 [dependencies]
-ic-kit = "0.4.3"
-ic-cdk = "0.3.1"
+ic-kit = "0.4.4"
+ic-cdk = "0.5"
+candid = "0.7"
 
 [target.'cfg(not(target_family = "wasm"))'.dependencies]
 async-std = { version="1.10.0", features = ["attributes"] }
